@@ -16,7 +16,9 @@ prerequisites:
                 has remained virtually unchanged through several driver updates and probably
                 won't change substantially
             3)  Developed and tested on Python 2.7.3. Might run on Python 3.x as is, will definitely run on
-                3.x with minor syntax changes.  
+                3.x with minor syntax changes.
+            4)  wmctrl - Linux binary to control terminal window dimensions, on Debian based syatems install with
+                sudo apt-get install wmctrl
 to do:
 
             1)  Discover how to unlock the GPU clocks. Being able to reduce clock speed would make it
